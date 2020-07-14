@@ -10,11 +10,11 @@
 
 
 ## Installation
-* checkout: 
+* checkout: https://github.com/nilay/lunch-advisor.git
 * create database 
 * cd to project directory
 * copy `.env.example` file to `.env` and put require credential 
-
+* Run following command in your terminal
 ```bash
 composer insrtall
 php artisan migrate
@@ -27,9 +27,9 @@ php artisan serve
 
 
 ## File to review
-* ** app/Models/Recipe.php **
-* ** app/Controller/LunchController.php **
-* ** tests/Unit/RecipeTest.php **
+* **app/Models/Recipe.php**
+* **app/Controller/LunchController.php**
+* **tests/Unit/RecipeTest.php**
 
 
 
